@@ -1,0 +1,88 @@
+<!-- <div style="align-content: center">
+  <h3>
+  From AppComponent
+</h3>
+</div> -->
+
+<!--  Interpolation -->
+<!-- <h2>
+  Welcome {{name}}
+</h2>
+<h2>{{2*2}}</h2>
+<h2>{{"Welcome " + name}}</h2>
+<h2>{{name.length}}</h2>
+<h2>{{name.toUpperCase()}}</h2>
+<h2>{{welcomeUser()}}</h2>
+<h2>{{currentURL}}</h2>  -->
+
+<!-- Property Binding -->
+<!-- <input [id] = "myID" type="text" value="testuser">
+<input disabled= true id = "{{myID}}" type="text" value="testuser"> -->
+
+<!-- Class Binding -->
+<!-- <h2 class="text-success">Test User</h2>
+<h2 [class]= "successClass">Test User</h2>
+
+<h2 class="text-special" [class]= "successClass">Test User</h2>
+<h2 [class.text-danger]="hasError">Test User</h2>
+<h2 [ngClass]="message">Test User</h2> -->
+
+<!-- Style Binding -->
+<!-- <h2 [style.color]="'orange'">Test User</h2>
+<h2 [style.color]="hasError ? 'red': 'green'">Test User</h2>
+<h2 [style.color]="highlightColor">Test User</h2>
+<h2 [ngStyle]="titleStyle">Test User</h2> -->
+
+<!-- Event Binding -->
+<!-- <button (click)="submit()">Submit</button>
+<br/>
+<button (click)="submit($event)">Submit</button>
+<button (click)="submitMessage='Submitted Successfully'">Submit</button>
+{{submitMessage}} -->
+
+<!-- Two way binding -->
+<!-- <input [(ngModel)]="name" type="text">
+{{name}} -->
+
+
+<!-- Pipes -->
+
+<!-- <h2>{{"Test user" | lowercase}}</h2>
+<h2>{{"Test user" | uppercase}}</h2>
+<h2>{{"Welcome Test user" | titlecase}}</h2>
+<h2>{{"Testuser" | slice:3:6}}</h2>
+<h2>{{person | json}}</h2>
+<h2>{{5.678 | number:'1.2-3'}}</h2>
+<h2>{{5.678 | number:'3.4-5'}}</h2>
+<h2>{{5.678 | number:'3.1-2'}}</h2>
+
+
+<h2>{{0.25 | percent}}</h2>
+<h2>{{0.25 | currency}}</h2>
+<h2>{{0.25 | currency:'GBP'}}</h2>
+<h2>{{0.25 | currency:'GBP':'code'}}</h2>
+
+<h2>{{date}}</h2>
+<h2>{{date | date:'short'}}</h2>
+<h2>{{date | date:'shortDate'}}</h2>
+<h2>{{date | date:'shortTime'}}</h2>
+
+<h2>{{date | date:'medium'}}</h2>
+<h2>{{date | date:'mediumDate'}}</h2>
+<h2>{{date | date:'mediumTime'}}</h2> -->
+
+<!--Directives-->
+<app-test></app-test>
+
+<!-- parent Child communication-->
+<!-- <app-parent></app-parent> -->
+
+<!-- lifecycle hooks-->
+<!-- <app-test1 *ngIf="show" name="{{name}}"> </app-test1>
+<br/>
+
+<input [(ngModel)]="name">
+
+<button (click)= "toggle()">Toggle</button> -->
+
+<!-- <app-userform></app-userform> -->
